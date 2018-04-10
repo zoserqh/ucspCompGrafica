@@ -9,12 +9,13 @@
  *   on from the OpenGL program as uniform variables of type mat4.
  ***************************/
 
- #version 150  // YJC: Comment/un-comment this line to resolve compilation errors
+ //#version 150  // YJC: Comment/un-comment this line to resolve compilation errors
                  //      due to different settings of the default GLSL version
+#version 120
 
-in  vec3 vPosition;
-in  vec3 vColor;
-out vec4 color;
+attribute  vec3 vPosition;
+attribute  vec3 vColor;
+varying vec4 color;
 
 uniform mat4 model_view;
 uniform mat4 projection;

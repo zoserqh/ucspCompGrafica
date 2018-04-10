@@ -1,0 +1,4 @@
+para compilar:
+g++ -std=c++0x heightmap.cpp InitShader.cpp -o heightmap -lGL -lglut -lGLU -lGLEW
+para ejecutar:
+./heightmap

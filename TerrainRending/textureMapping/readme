@@ -1,0 +1,5 @@
+para compilar:
+g++ -std=c++0x textureMapping.cpp InitShader.cpp -o textureMapping -lGL -lglut -lGLU -lGLEW
+
+para ejecutar:
+./textureMapping

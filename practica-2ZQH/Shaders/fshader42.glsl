@@ -3,14 +3,15 @@
  *       A simple fragment shader
  *****************************/
 
- #version 150  // YJC: Comment/un-comment this line to resolve compilation errors
+ //#version 150  // YJC: Comment/un-comment this line to resolve compilation errors
                  //      due to different settings of the default GLSL version
+#version 120
 
-in  vec4 color;
-out vec4 fColor;
+varying  vec4 color;
+// vec4 fColor;
 
 void main() 
 { 
-    fColor = color;
+    gl_FragColor = color;
 } 
 

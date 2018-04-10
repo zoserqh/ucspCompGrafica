@@ -1,0 +1,9 @@
+para compilar:
+g++ -std=c++0x sphereRoll.cpp InitShader.cpp -o sphereRoll -lGL -lglut -lGLU -lGLEW
+para ejecutar:
+./sphereRoll -readObj spheres/sphere.8
+./sphereRoll -readObj spheres/sphere.128
+./sphereRoll -readObj spheres/sphere.256
+./sphereRoll -readObj spheres/sphere.1024
+
+
